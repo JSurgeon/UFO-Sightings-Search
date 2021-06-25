@@ -37,11 +37,11 @@ addEntries(tableData);
 var button = d3.select("#filter-btn");
 
 // select the form html tag
-var form = d3.select("#form");
+var form = d3.selectAll("#form");
 
 // create event handlers for clicking 'Filter Table' and for pressing the enter key
 button.on("click",runEnter);
-form.on("submit",runEnter);
+form.on("change",runEnter);
 
 // create runEnter function to handle input from user
 function runEnter() {
