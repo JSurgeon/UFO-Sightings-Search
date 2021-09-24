@@ -1,4 +1,4 @@
-# javascript-challenge
+# UFO Sightings Searchsite
 
 This repository contains files/code and images in relation to a UFO sighting webpage, dynamically created with D3 and javascript, primarily
 
